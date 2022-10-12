@@ -2,9 +2,9 @@
          <ul class="sidebar-nav" id="sidebar-nav">
             <li class="nav-item"> <a class="nav-link " href="<?= base_url('dashboard'); ?>"> <i class="bi bi-grid"></i> <span>Dashboard</span> </a></li>
             <li class="nav-item">
-               <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#"> <i class="bi bi-journal-text"></i><span>Berkas Persuratan</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+               <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#"> <i class="bi bi-journal-text"></i><span>Kesekretariatan</span><i class="bi bi-chevron-down ms-auto"></i> </a>
                <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-                 <li> <a href="<?= base_url('kesekretariatan/'); ?>"> <i class="bi bi-circle"></i><span>Surat Masuk</span> </a></li>
+                 <li> <a href="<?= base_url('kesekretariatan/surat_masuk'); ?>"> <i class="bi bi-circle"></i><span>Surat Masuk</span> </a></li>
                   <li> <a href="<?= base_url('kesekretariatan/surat_keluar'); ?>"> <i class="bi bi-circle"></i><span>Surat Keluar</span> </a></li>
                  <li> <a href="<?= base_url('kesekretariatan/buat_surat'); ?>"> <i class="bi bi-circle"></i><span>Buat Surat</span> </a></li>
                   <li> <a href="<?= base_url('kesekretariatan/arsip_berkas'); ?>"> <i class="bi bi-circle"></i><span>Arsip Berkas</span> </a></li>
